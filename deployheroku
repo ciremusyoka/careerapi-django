@@ -1,0 +1,3 @@
+git push heroku master
+heroku run ./manage.py migrate
+heroku run ./manage.py test
