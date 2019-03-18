@@ -4,13 +4,7 @@ BASE_DIR     = os.path.dirname(os.path.dirname(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 DATABASES = {
-     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'deh58tm8oqvjlm',        # Or path to database file if using sqlite3.
-        'USER': 'ykoylyflavqbrz',                   # Not used with sqlite3.
-        'PASSWORD': '69dc976e64dff9b38447928882428d01e6777af978c324cad3a17caf0b21a458',            # Not used with sqlite3.
-        'HOST': 'ec2-54-83-27-165.compute-1.amazonaws.com',             # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '5432',                  # Set to empty string for default. Not used with sqlite3.
+     'default': {                 # Set to empty string for default. Not used with sqlite3.
     }
 }
 # pg_dump -U nzmewqyrvjyhpl -h ec2-107-22-173-160.compute-1.amazonaws.com dcoimmfelmkfbc > winda_backup
