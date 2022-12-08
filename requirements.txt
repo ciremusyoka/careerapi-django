@@ -46,7 +46,7 @@ azure-servicemanagement-legacy==0.20.6
 azure-storage==0.20.0
 boto3==1.7.69
 botocore==1.10.69
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.11.2
 channels==1.1.8
 channels-api==0.4.0
